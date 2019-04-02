@@ -1,5 +1,19 @@
 *{margin: 0; padding: 0;}
 
+a.nuthire.btn.btn-primary {
+    background-color: black;
+    width: 20%;
+    border-color: black;
+}
+
+.khoitt img {
+    border-radius: 50%;
+    width: 116px;
+    height: 116px;
+    /* padding-bottom: 20px; */
+    margin-bottom: 20px;
+}
+
 .khoitt1 {
     width: 100%;
     height: 100%;
@@ -15,6 +29,7 @@
     top: 0;
     width: 50%;
     height: 100%;
+    z-index: 1;
 }
 
 body,html {
@@ -34,6 +49,18 @@ li.nav-item {
     font-weight: 500;
     color: black;
 }
+.khoitt
+{
+    z-index: 2;
+    position: relative;
+    padding-top: 150px;
+}
+.khoitt.anh img{
+    width: 100px;
+    height: 100px;
+}
+
+
 @media (max-width:567px){
     
     li.nav-item{
