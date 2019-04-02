@@ -1,5 +1,27 @@
 *{margin: 0; padding: 0;}
 
+.nd_child {
+    padding-bottom: 50px;
+}
+
+.image_center img {
+    margin-top: -15%;
+}
+
+.col-sm-4.content2 {
+    text-align: left;
+}
+
+.col-sm-4.content1 {
+    text-align: right;
+    /* line-height: 28px; */
+}
+
+h1.title {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
 a.nuthire.btn.btn-primary {
     background-color: black;
     width: 20%;
@@ -59,7 +81,10 @@ li.nav-item {
     width: 100px;
     height: 100px;
 }
-
+.color
+{
+    color: #E7525A;
+}
 
 @media (max-width:567px){
     
@@ -67,5 +92,12 @@ li.nav-item {
         font-size: 12px;
         padding: 0;
 
+    }
+    a.nuthire.btn.btn-primary {
+       width: 50%;
+    }
+    .khoitt
+    {
+        padding: 20px;
     }
 }
